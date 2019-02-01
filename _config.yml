@@ -1,5 +1,5 @@
 # main text of home
-name: Blog FOSDEM
+name: Club*Nix au FOSDEM 2019
 bio: 2 membres du Club*Nix au Fosdem
 
 # twitter summary info
@@ -8,13 +8,13 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: "assets/images/GNU-Linux Logo.png"
+picture: "assets/images/595px-FOSDEM_logo.png"
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: false
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: none
 
 url: https://koppl.in/indigo
 # your url: http://USERNAME.github.io
@@ -30,11 +30,11 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  shortname: #mydisqus # enter this from your disqus account
+  categories: #[blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
+facebook: clubnix.fr
 # twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
@@ -42,7 +42,7 @@ facebook: myfacebook
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: clubnix
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
@@ -51,22 +51,22 @@ github: mygithub
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+# email: myemail@gmail.com
 
 authors:
     kidon:
-        name: John Doe
-        bio: A Man who plouf ing noodles
+        name: Bryan Pereira
+        bio: Last year engineer student in Embedded Systems
         external-image: false
         picture: assets/images/clubnix.png
         # twitter: johndoe
         github : kidonsky
     minijackson:
-        name: James Foster
+        name: Rémi Nicole
         bio: A Man who develops software with coffee
         external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        picture: assets/images/clubnix.png
+        github: minijackson
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -78,11 +78,11 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
+# about: true
+# blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
